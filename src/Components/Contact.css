@@ -1,0 +1,111 @@
+/* contact.css */
+.contact {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-header {
+    background: #f8f9fa;
+    padding: 50px;
+    border-bottom: 2px solid #e9ecef;
+  }
+  
+  .contact-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  .contact-header p {
+    margin: 10px 0 0;
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
+  .contact-info {
+    padding: 30px 20px;
+    background: #fff;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    margin: 10px 0;
+  }
+  
+  .info-item h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .info-item p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .contact-form {
+    padding: 30px 20px;
+    background: #f8f9fa;
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin: 15px 0;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #343a40;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-map {
+    padding: 30px 20px;
+    background: #fff;
+  }
+  
+  .contact-map h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .map-container {
+    display: flex;
+    justify-content: center;
+  }
+  

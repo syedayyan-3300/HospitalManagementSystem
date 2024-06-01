@@ -1,0 +1,83 @@
+/* about.css */
+.about {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-header {
+    background: #f8f9fa;
+    padding: 50px;
+    border-bottom: 2px solid #e9ecef;
+  }
+  
+  .about-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  .about-header p {
+    margin: 10px 0 0;
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
+  .about-mission, .about-vision, .about-history {
+    padding: 30px 20px;
+    background: #fff;
+  }
+  
+  .about-mission h2, .about-vision h2, .about-history h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .about-mission p, .about-vision p, .about-history p {
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
+  .about-team {
+    padding: 50px 20px;
+    background: #f8f9fa;
+  }
+  
+  .about-team h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 30px;
+  }
+  
+  .team-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .team-member {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #007bff;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  

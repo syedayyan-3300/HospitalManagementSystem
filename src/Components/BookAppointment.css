@@ -1,0 +1,38 @@
+/* Home.css */
+.home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .home-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    .home-card {
+      width: 48%;
+    }
+  }
+  
+  @media (min-width: 960px) {
+    .home-card {
+      width: 30%;
+    }
+  }
+  
+  .home-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .home-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .home-contact {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
